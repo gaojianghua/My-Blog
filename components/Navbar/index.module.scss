@@ -1,0 +1,60 @@
+.navbar {
+    //width: 100vw;
+    height: 60px;
+    background-color: #fFF;
+    border-bottom: 1px solid #f1f1f1;
+    display: flex;
+    align-items: center;
+    padding: 0 20%;
+    //position: fixed;
+
+    .logoArea {
+        font-size: 30px;
+        font-weight: bolder;
+        margin-right: 60px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .linkArea {
+        height: 100%;
+        display: flex;
+
+        div {
+            height: 100%;
+            padding: 0 20px;
+
+            a {
+                font-size: 15px;
+                color: #515767;
+                height: 58px;
+                display: flex;
+                box-sizing: content-box;
+                align-items: center;
+            }
+        }
+
+        .active {
+            color: #007fff;
+        }
+
+        div:hover>a {
+            border-bottom: 2px solid #007fff;
+        }
+    }
+
+    .operationArea {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+
+        button {
+            margin-left: 20px;
+        }
+
+        .avatar {
+            margin-left: 20px;
+        }
+    }
+}

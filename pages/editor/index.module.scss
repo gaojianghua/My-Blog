@@ -1,0 +1,17 @@
+.container{
+    padding: 20px;
+    .operation{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        .title{
+            height: 40px;
+            width: 50%;
+            border-radius: 10px;
+        }
+        .button{
+            width: 5%;
+            border-radius: 5px;
+        }
+    }
+}
